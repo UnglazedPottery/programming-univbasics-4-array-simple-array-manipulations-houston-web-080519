@@ -1,48 +1,48 @@
 def using_push(array, string)
-  Array.push(String)
+  array.push(string)
 end
 
-def using_unshift(Array, String)
-  Array.unshift(String)
+def using_unshift(array, string)
+  array.unshift(string)
 end
 
-def using_pop(Array)
-  Array.pop()
+def using_pop(array)
+  array.pop()
 end
 
-def pop_with_args(Array)
-  Array.pop(2)
+def pop_with_args(array)
+  array.pop(2)
 end
 
-def using_shift(Array)
-  Array.shift()
+def using_shift(array)
+  array.shift()
 end
 
-def shift_with_args(Array)
-  Array.shift(2)
+def shift_with_args(array)
+  array.shift(2)
 end
 
-def using_concat(Array, Array2)
-  Array.concat(Array2)
+def using_concat(array, array2)
+  array.concat(array2)
 end
 
-def using_insert(Array, element)
-  Array[4].insert(element)
+def using_insert(array, element)
+  array[4].insert(element)
 end
 
-def using_uniq(Array)
-  Array.uniq()
+def using_uniq(array)
+  array.uniq()
 end
 
-def using_flatten(Array)
-  Array.flatten()
+def using_flatten(array)
+  array.flatten()
 end
 
-def using_delete(Array, String)
-  Array.delete(String)
+def using_delete(array, string)
+  array.delete(string)
 end
 
-def using_delete_at(Array, Integer)
-  Array[Integer].delete()
+def using_delete_at(array, integer)
+  array[integer].delete()
 end
 
